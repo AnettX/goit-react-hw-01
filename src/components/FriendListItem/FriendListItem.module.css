@@ -1,0 +1,26 @@
+    .friendListItemWrap {
+        display: flex;
+        flex-direction: column;
+        width: 92px;
+        height: 140px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.75);
+    }
+
+    .friendImg {
+        display: flex;
+    }
+
+    .friendOnline {
+        color: green;
+        font-weight: bold;
+    }
+
+    .friendOffline {
+        color: red;
+        font-weight: bold;
+    }

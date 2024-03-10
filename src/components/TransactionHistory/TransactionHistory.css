@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+  box-shadow: 10px 10px 16px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 36px;
+}
+
+th {
+  background-color: rgb(47, 46, 46);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(195, 191, 191);
+}
